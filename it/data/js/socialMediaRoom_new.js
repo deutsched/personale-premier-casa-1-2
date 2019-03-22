@@ -68,7 +68,7 @@ zo.facebookBox = {
                     cookie: false,
                     xfbml: true
                 });
-                $container.append('<fb:fan profile_id="115816835104562" connections="6" stream=true width="364" height="480" css="https://www.facebook.com/DeutscheBankEasy/italia/it/data/css/socialMediaRoom_Facebook_new.css?2"></fb:fan>');
+                $container.append('<fb:fan profile_id="115816835104562" connections="6" stream=true width="364" height="480" css="/italia/it/data/css/socialMediaRoom_Facebook_new.css?2"></fb:fan>');
             });*/
             $container.append('<iframe src="" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:364px; height:350px;" allowTransparency="true"></iframe>')
 
