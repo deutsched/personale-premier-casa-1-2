@@ -1,0 +1,274 @@
+﻿
+@charset 'UTF-8';
+/* declares an xml namespace in css3 */
+@namespace 'http://www.w3.org/1999/xhtml';
+@media screen
+{
+  /* 2014 redesign */
+    .socialMediaNew_Wrapper .smrContainer {
+        border: 1px solid #eee;
+        overflow:hidden;
+    }
+    .socialMediaNew_Wrapper .smrContainer .rdtextfield img {
+        margin-bottom:0;
+    }
+    .socialMediaNew_Wrapper .smrHeader { 
+        position: relative;
+        height: 52px;
+        background-color: #eee;
+    }
+    .socialMediaNew_Wrapper .smrHeader h1 {
+        font-size: 20px;
+        color: #0098dc;
+        left: 10px;
+        top: 16px;
+    }
+    .socialMediaNew_Wrapper .smrStageA {
+        position: relative;
+        display: block;
+        margin-bottom: -106px;
+        top: -30px;
+    }
+    .socialMediaNew_Wrapper .smrStage {
+        position: relative;
+        width: 752px;
+        margin-bottom: -7px;
+    }
+    .socialMediaNew_Wrapper .smrStage .text {
+        position: relative;
+        display: block;
+        top: 40px;
+        left: 26px;
+        color: #fff;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .socialMediaNew_Wrapper .smrStage .link {
+        position: absolute;
+        height: 28px;
+        background: url('../../img/arrow_ts.png') no-repeat;
+        left: 26px;
+        bottom: 30px;
+        padding-top: 12px;
+        padding-left: 50px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .socialMediaNew_Wrapper .smrLinklist { 
+        position: relative;
+        background-color: #eee;
+        margin-top: 1px;
+        padding: 0 12px 24px 12px;
+    }
+    .socialMediaNew_Wrapper .smrLinklist h6 {
+        padding-top: 24px!important;
+        margin-bottom: 6px;
+    }
+    .socialMediaNew_Wrapper .smrLinklist a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .socialMediaNew_Wrapper .smrFooter  {
+        height: 37px;
+        background-color: #eee;
+    }
+    .socialMediaNew_Wrapper .smrFooter .arrow {
+        position: relative;
+        float: left;
+        display: block;
+        left: 7px;
+        top: 6px;
+        width: 35px;
+        height: 35px;
+        background: url('../../img/smrSprites2014.png') -56px -35px no-repeat;
+    }
+    .socialMediaNew_Wrapper .smrFooter a {
+        position: relative;
+        left: 5px;
+        top: 10px;
+        font-size: 15px;
+    }
+    .socialMediaNew_Wrapper .smrFooter a img {
+        position: relative;
+        top: 5px;
+        margin-right: 5px;
+    }
+    /* Facebook */
+    .socialMediaNew_Wrapper #fb-container iframe {
+        width: 362px !important;
+    }
+    /* Twitter */
+    .socialMediaNew_Wrapper .twitter-timeline {
+        margin-left: 10px;
+        width: 344px;
+    }
+    /* RSS & Podcast TextOnly */
+    #cc_01_TextOnly4832, #cc_01_TextOnly4857, #cc_01_TextOnly4919  {
+        padding: 22px 12px 12px 10px;
+    }
+    #cc_01_TextOnly4832 h2, #cc_01_TextOnly4857 h2, #cc_01_TextOnly4919 h2 {
+        color: #666;
+        margin-bottom: 4px;
+    }
+    #cc_01_TextOnly4832 a, #cc_01_TextOnly4857 a, #cc_01_TextOnly4919 a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    #cc_01_TextOnly4832 .spacer, #cc_01_TextOnly4857 .spacer, #cc_01_TextOnly4919 .spacer {
+        display: block;
+        border-bottom: 1px solid #ccc;
+        height: 1px;
+        margin: 15px 0px 10px 0;
+    }
+    /* Google+ */
+    .socialMediaNew_Wrapper #gp-container {
+        padding-top: 5px;
+    }
+    .socialMediaNew_Wrapper .gp-item {
+        display: block;
+        position: relative;
+        left: 50px;
+        padding-right: 50px;
+        clear: both;
+    }
+    .socialMediaNew_Wrapper .gp-item .logo {
+        position: absolute;
+        left: -50px;
+    }
+    .socialMediaNew_Wrapper .gp-item .text {
+        position: relative;
+        top: 7px;
+        margin-bottom: 15px;
+    }
+    .socialMediaNew_Wrapper .gp-item .date {
+        display: block;
+        font-size: 12px;
+    }
+    .socialMediaNew_Wrapper .gp-item .gp-channelName {
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+    }
+    .socialMediaNew_Wrapper .gp-item .gp-channelId {
+        color: #707070;
+    }
+
+  /* end of 2014 redesign */
+
+  .socialMediaNew_Wrapper h1 { position:relative; margin-bottom:10px; }
+  .socialMediaNew_Wrapper div.cc_apollo_twoCol ul.smrMore { list-style:none; margin:0; }
+  .socialMediaNew_Wrapper p.smrExtendHead { position:absolute; top:6px; right:9px; display:block; }
+  .socialMediaNew_Wrapper p.smrExtendHead span { display:block; float:left; cursor:pointer; }
+  .socialMediaNew_Wrapper p.smrExtendHead a.smrVisitPlatform { position:relative; display:block; float:left; padding:12px 25px 0 0; }
+  .socialMediaNew_Wrapper p.smrExtendHead a.smrActivatePlugin { position:relative; display:block; float:left; margin:12px 15px 0 0; padding:12px 38px 0 0; }
+  .socialMediaNew_Wrapper p.smrExtendHead a.smrActivatePlugin span { font-size:12px; line-height:16px; }
+  .socialMediaNew_Wrapper .smrSprite { background:transparent url('../../img/smrSprites2014.png') no-repeat; }
+  /* BOOKMARKS */
+  .socialMediaNew_Wrapper .smrIcons { position:absolute; top:4px; right:0; display:block; width:34px; height:32px; }
+  .socialMediaNew_Wrapper .smrEmpty { background-position:-1000px 0; }
+  .socialMediaNew_Wrapper .smrFacebook { background-position:0 0; }
+  .socialMediaNew_Wrapper .smrTwitter { background-position:-37px 0; }
+  .socialMediaNew_Wrapper .smrFlickr { background-position:-74px 0; }
+  .socialMediaNew_Wrapper .smrYoutube { background-position:-111px 0; }
+  .socialMediaNew_Wrapper .smrRSS { background-position:-148px 0; }
+  .socialMediaNew_Wrapper .smrGooglePlus { background-position:-185px 0; }
+  .socialMediaNew_Wrapper .smrPodcast { background-position:-222px 0; }
+  .socialMediaNew_Wrapper .smrPluginState { position:absolute; top:13px; right:5px; display:block; width:27px; height:14px; }
+  .socialMediaNew_Wrapper .smrStateInactive { background-position:0 -36px; }
+  .socialMediaNew_Wrapper .smrStateActive { background-position:-29px -36px; }
+  .socialMediaNew_Wrapper .smrMore li { clear:both; margin-top:10px; }
+  /* TWITTER */
+  .socialMediaNew_Wrapper #smrTwitter { /*height:350px;*/ }
+  .socialMediaNew_Wrapper #smrTwitter .zoTweet { margin-bottom:12px; padding:12px; background:#fff; color:#000; }
+  .socialMediaNew_Wrapper #smrTwitter p.twText {  }
+  .socialMediaNew_Wrapper #smrTwitter p.twLink { margin-top:10px; color:#444; }
+  .socialMediaNew_Wrapper #smrTwitter p.twLink a { color:#444; }
+  .socialMediaNew_Wrapper #smrTwitter p.twSource { display:block; margin-top:10px; color:#444; }
+  /* FACEBOOK */
+  .socialMediaNew_Wrapper #smrFacebook { position:relative; /*height:350px;*/ background:#fff; }
+  .socialMediaNew_Wrapper #smrFacebookLike { position:absolute; top:35px; left:63px; height:10px; }
+  .socialMediaNew_Wrapper #fb-container { height:350px; }
+.socialMediaNew_Wrapper .connect_widget { background-color:transparent; cursor:pointer; }
+.socialMediaNew_Wrapper .connect_widget .connect_widget_interactive_area { width:auto; border-collapse:collapse; }
+.socialMediaNew_Wrapper .connect_widget td.connect_widget_vertical_center { padding:0; border-spacing:0; }
+.socialMediaNew_Wrapper .connect_widget td.connect_widget_button_cell { vertical-align:top; background-image:none !important; padding:0 !important; }
+.socialMediaNew_Wrapper .connect_widget .connect_button_slider { position:relative; zoom:1; }
+.socialMediaNew_Wrapper .connect_widget .connect_widget_button_cell .connect_slide_hide_content { width:1px; overflow:hidden; margin-right:0px; }
+.socialMediaNew_Wrapper .connect_widget .connect_slide_hide_content .connect_button_container { margin-left:1px; }
+.socialMediaNew_Wrapper a.connect_widget_like_button { display:block; /*float:left; padding:4px 5px;*/ border:1px solid #000; border-radius:3px; }
+.socialMediaNew_Wrapper a.connect_widget_like_button:hover { text-decoration:none; }
+.socialMediaNew_Wrapper .connect_widget_like_button .vertical { position:relative; top:-7px; left:0; display:block; height:14px; margin:0 0 -8px -1px; padding:3px 6px 4px 3px; border-top:1px solid; border-bottom:1px solid; cursor:pointer; }
+.socialMediaNew_Wrapper .connect_widget_like_button .horizontal { position:absolute; top:-3px; left:-3px; display:block; width:100%; height:100%; padding-left:2px; border-right:1px solid; border-left:1px solid; cursor:pointer; }
+.socialMediaNew_Wrapper .connect_widget_like_button .corner_mask { position:absolute; display:block; width:3px; height:3px; overflow:hidden; }
+.socialMediaNew_Wrapper .connect_widget_like_button .corner { display:block; width:6px; height:6px; background:url('../../../../../static.ak.fbcdn.net/rsrc.php/zh/r/Ch71Zv858xU.png'); }
+.socialMediaNew_Wrapper .connect_widget_like_button .topleft { top:-6px; left:-3px; }
+.socialMediaNew_Wrapper .connect_widget_like_button .topleft .corner { margin:0; }
+.socialMediaNew_Wrapper .connect_widget_like_button .topright { top:-6px; right:-1px; }
+.socialMediaNew_Wrapper .connect_widget_like_button .topright .corner { margin:0 0 0 -3px; }
+.socialMediaNew_Wrapper .connect_widget_like_button .bottomright { bottom:0; right:-1px; }
+.socialMediaNew_Wrapper .connect_widget_like_button .bottomright .corner { margin:-3px 0 0 -3px; }
+.socialMediaNew_Wrapper .connect_widget_like_button .bottomleft { bottom:0; left:-3px; }
+.socialMediaNew_Wrapper .connect_widget_like_button .bottomleft .corner { margin:-3px 0 0; }
+.socialMediaNew_Wrapper .connect_widget_like_button .liketext { display:block; padding-left:17px; white-space:nowrap; color:#3b5998; background:url('../../../../../static.ak.fbcdn.net/rsrc.php/zh/r/Ch71Zv858xU.png') no-repeat left -33px; }
+.socialMediaNew_Wrapper .connect_widget .like_button_no_like .piece { border-color:#cad4e7; background-color:#eceef5; }
+.socialMediaNew_Wrapper .connect_widget .like_button_no_like { border-color:#cad4e7; background-color:#eceef5; }
+.socialMediaNew_Wrapper .connect_widget .like_button_no_like .corner { background-position:9px 41px; }
+.socialMediaNew_Wrapper .connect_widget a.like_button_no_like:hover .piece { border-color:#9dacce; background-color:#eceef5; }
+.socialMediaNew_Wrapper .connect_widget a.like_button_no_like:hover { border-color:#9dacce; background-color:#eceef5; }
+.socialMediaNew_Wrapper .connect_widget .like_button_no_like:hover .corner { background-position:9px 35px; }
+.socialMediaNew_Wrapper .connect_widget .like_button_pressed { border-color:#94a5ca; background-color:#ced4e6; }
+.socialMediaNew_Wrapper .connect_widget .like_button_pressed .piece { border-color:#94a5ca; background-color:#ced4e6; }
+.socialMediaNew_Wrapper .connect_widget .like_button_pressed .corner { background-position:9px 29px; }
+  /* FB Privacy Protection */
+  .socialMediaNew_Wrapper #fb-privacy-protection { position:relative; height:350px; overflow:hidden; background:url('') no-repeat; }
+  .socialMediaNew_Wrapper #fb-privacy-overlay { position:absolute; top:0; left:0; width:362px; height:350px; overflow:hidden; background:#fff; }
+  .socialMediaNew_Wrapper #fb-privacy-info { position:absolute; top:58px; left:24px; padding:12px; width:292px; background:#fff; -moz-box-shadow:0 0 7px rgba(0,0,0,.25); -webkit-box-shadow:0 0 7px rgba(0,0,0,.25); box-shadow:0 0 7px rgba(0,0,0,.25); }
+  .socialMediaNew_Wrapper #fb-privacy-select { margin:12px 0; padding:12px 7px; overflow:hidden; clear:both; background:url('../../img/smr_fbPluginPulldownBG.jpg') no-repeat; }
+  .socialMediaNew_Wrapper #fb-privacy-select select { display:block; float:left; padding:3px; }
+  .socialMediaNew_Wrapper #fb-privacy-select a.fb-privacy-submit { display:block; float:left; margin-left:12px; }
+
+  /* YOUTUBE */
+  .socialMediaNew_Wrapper #smrYoutube .ytPlayer { display:block; height:205px; }
+  *html .socialMediaNew_Wrapper #smrYoutube .ytPlayer { overflow:hidden; }
+  .socialMediaNew_Wrapper #smrYoutube .ytPlayer img { width:100%; }
+  .socialMediaNew_Wrapper #smrYoutube .ytInfo { margin-top:12px; padding:12px 12px 1px; background:#fff; }
+  .socialMediaNew_Wrapper #smrYoutube .ytHeading { display:block; }
+  .socialMediaNew_Wrapper #smrYoutube .ytDate { padding-right:5px; }
+  .socialMediaNew_Wrapper #smrYoutube .ytViews { padding-left:5px; border-left:1px solid #888; }
+  /* FLICKR */
+  .socialMediaNew_Wrapper #smrFlickr { position:relative; overflow: hidden; }
+  .socialMediaNew_Wrapper #smrFlickr .zoFlickr { position:absolute; background:#fff; }
+  .socialMediaNew_Wrapper #smrFlickr .flickrPhoto { position:relative; display:block; overflow:hidden; width:365px; height:205px; }
+  .socialMediaNew_Wrapper #smrFlickr .flickrPhoto img { width:100%; }
+  .socialMediaNew_Wrapper #smrFlickr .flInfo { margin-top:12px; padding:12px 12px 1px; background:#fff; }
+  .socialMediaNew_Wrapper #smrFlickr .flHeading { display:block; }
+  .socialMediaNew_Wrapper #smrFlickr .flViews { padding-left:5px; border-left:1px solid #888; }
+
+  /* TABS */
+/*
+  a.msTabItem { display:inline !important; float:left; margin:12px 12px 0; padding:0; width:340px; }
+  a.msTabItem img { float:left; margin:0 9px 0 0; }
+  a.msTabItem span { cursor:pointer; display:block; margin:4px 0; width:307px; }
+*/
+  .socialMediaNew_Wrapper a.msTabItem { display:block; margin-top:12px; padding:0; }
+  .socialMediaNew_Wrapper a.msTabItem img { float:left; margin:0 9px 0 0; }
+  .socialMediaNew_Wrapper a.msTabItem span { cursor:pointer; display:block; padding:4px 0; width:307px; }
+  .socialMediaNew_Wrapper div.smrTabbedColumnLeft { float:left; width:350px; margin:0 12px 0; }
+  .socialMediaNew_Wrapper div.smrTabbedColumnRight { float:left; width:350px; margin:0 12px; }
+}
+
+
+/* CHANNEL BUTTONS */
+.socialMediaNew_Wrapper .smrChannelButton {
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+.socialMediaNew_Wrapper .smrChannelButtonContent {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+ 

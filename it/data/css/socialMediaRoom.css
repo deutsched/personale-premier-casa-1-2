@@ -1,0 +1,130 @@
+﻿@charset 'UTF-8';
+/* declares an xml namespace in css3 */
+@namespace 'http://www.w3.org/1999/xhtml';
+
+@media screen
+{
+  h1 { position:relative; margin-bottom:10px; }
+  div.cc_apollo_twoCol ul.smrMore { list-style:none; margin:0; }
+
+  p.smrExtendHead { position:absolute; top:4px; right:0; display:block; }
+  p.smrExtendHead span { display:block; float:left; cursor:pointer; }
+  p.smrExtendHead a.smrVisitPlatform { position:relative; display:block; float:left; padding:12px 25px 0 0; }
+  p.smrExtendHead a.smrActivatePlugin { position:relative; display:block; float:left; margin-right:15px; padding:12px 29px 0 0; }
+
+  .smrSprite { background:transparent url('../../img/smrSprite.gif') no-repeat; }
+
+  /* BOOKMARKS */
+  .smrIcons { position:absolute; top:4px; right:0; display:block; width:18px; height:19px; }
+  .smrFacebook { background-position:0 0; }
+  .smrTwitter { background-position:-20px 0; }
+  .smrFlickr { background-position:-40px 0; }
+  .smrYoutube { background-position:-60px 0; }
+
+  .smrPluginState { position:absolute; top:11px; right:0; display:block; width:27px; height:14px; }
+  .smrStateInactive { background-position:-140px 0; }
+  .smrStateActive { background-position:-169px 0; }
+
+  .smrMore li { clear:both; margin-top:10px; }
+
+  /* TWITTER */
+  #smrTwitter { /*height:350px;*/ }
+  #smrTwitter .zoTweet { margin-bottom:12px; padding:12px; background:#f7f7f7; color:#000; }
+  #smrTwitter p.twText {  }
+  #smrTwitter p.twLink { margin-top:10px; color:#444; }
+  #smrTwitter p.twLink a { color:#444; }
+  #smrTwitter p.twSource { display:block; margin-top:10px; color:#444; }
+
+  /* FACEBOOK */
+  #smrFacebook { position:relative; /*height:350px;*/ background:#f7f7f7; }
+  #smrFacebookLike { position:absolute; top:35px; left:63px; height:10px; }
+  #fb-container { height:350px; }
+.connect_widget { background-color:transparent; cursor:pointer; }
+.connect_widget .connect_widget_interactive_area { width:auto; border-collapse:collapse; }
+.connect_widget td.connect_widget_vertical_center { padding:0; border-spacing:0; }
+.connect_widget td.connect_widget_button_cell { vertical-align:top; background-image:none !important; padding:0 !important; }
+.connect_widget .connect_button_slider { position:relative; zoom:1; }
+.connect_widget .connect_widget_button_cell .connect_slide_hide_content { width:1px; overflow:hidden; margin-right:0px; }
+.connect_widget .connect_slide_hide_content .connect_button_container { margin-left:1px; }
+a.connect_widget_like_button { display:block; /*float:left; padding:4px 5px;*/ border:1px solid #000; border-radius:3px; }
+a.connect_widget_like_button:hover { text-decoration:none; }
+.connect_widget_like_button .vertical { position:relative; top:-7px; left:0; display:block; height:14px; margin:0 0 -8px -1px; padding:3px 6px 4px 3px; border-top:1px solid; border-bottom:1px solid; cursor:pointer; }
+.connect_widget_like_button .horizontal { position:absolute; top:-3px; left:-3px; display:block; width:100%; height:100%; padding-left:2px; border-right:1px solid; border-left:1px solid; cursor:pointer; }
+.connect_widget_like_button .corner_mask { position:absolute; display:block; width:3px; height:3px; overflow:hidden; }
+.connect_widget_like_button .corner { display:block; width:6px; height:6px; background:url('../../../../../static.ak.fbcdn.net/rsrc.php/zh/r/Ch71Zv858xU.png'); }
+.connect_widget_like_button .topleft { top:-6px; left:-3px; }
+.connect_widget_like_button .topleft .corner { margin:0; }
+.connect_widget_like_button .topright { top:-6px; right:-1px; }
+.connect_widget_like_button .topright .corner { margin:0 0 0 -3px; }
+.connect_widget_like_button .bottomright { bottom:0; right:-1px; }
+.connect_widget_like_button .bottomright .corner { margin:-3px 0 0 -3px; }
+.connect_widget_like_button .bottomleft { bottom:0; left:-3px; }
+.connect_widget_like_button .bottomleft .corner { margin:-3px 0 0; }
+.connect_widget_like_button .liketext { display:block; padding-left:17px; white-space:nowrap; color:#3b5998; background:url('../../../../../static.ak.fbcdn.net/rsrc.php/zh/r/Ch71Zv858xU.png') no-repeat left -33px; }
+.connect_widget .like_button_no_like .piece { border-color:#cad4e7; background-color:#eceef5; }
+.connect_widget .like_button_no_like { border-color:#cad4e7; background-color:#eceef5; }
+.connect_widget .like_button_no_like .corner { background-position:9px 41px; }
+.connect_widget a.like_button_no_like:hover .piece { border-color:#9dacce; background-color:#eceef5; }
+.connect_widget a.like_button_no_like:hover { border-color:#9dacce; background-color:#eceef5; }
+.connect_widget .like_button_no_like:hover .corner { background-position:9px 35px; }
+.connect_widget .like_button_pressed { border-color:#94a5ca; background-color:#ced4e6; }
+.connect_widget .like_button_pressed .piece { border-color:#94a5ca; background-color:#ced4e6; }
+.connect_widget .like_button_pressed .corner { background-position:9px 29px; }
+
+  /* FB Privacy Protection */
+  #fb-privacy-protection { position:relative; height:350px; overflow:hidden; background:url('../../img/smr_fbPrivacyBG.png') no-repeat; }
+  #fb-privacy-overlay { position:absolute; top:0; left:0; width:364px; height:350px; overflow:hidden; background:#f7f7f7; }
+  #fb-privacy-info { position:absolute; top:58px; left:24px; padding:12px; width:292px; background:#fff; -moz-box-shadow:0 0 7px rgba(0,0,0,.25); -webkit-box-shadow:0 0 7px rgba(0,0,0,.25); box-shadow:0 0 7px rgba(0,0,0,.25); }
+  #fb-privacy-select { margin:12px 0; padding:12px 7px; overflow:hidden; clear:both; background:url('../../img/smr_fbPluginPulldownBG.jpg') no-repeat; }
+  #fb-privacy-select select { display:block; float:left; padding:3px; }
+  #fb-privacy-select a.fb-privacy-submit { display:block; float:left; margin-left:12px; }
+
+
+  /* YOUTUBE */
+  #smrYoutube .ytPlayer { display:block; height:205px; }
+  *html #smrYoutube .ytPlayer { overflow:hidden; }
+  #smrYoutube .ytPlayer img { width:100%; }
+  #smrYoutube .ytInfo { margin-top:12px; padding:12px 12px 1px; background:#f7f7f7; }
+  #smrYoutube .ytHeading { display:block; }
+  #smrYoutube .ytDate { padding-right:5px; }
+  #smrYoutube .ytViews { padding-left:5px; border-left:1px solid #888; }
+
+  /* FLICKR */
+  #smrFlickr { position:relative; }
+  #smrFlickr .zoFlickr { position:absolute; background:#fff; }
+  #smrFlickr .flickrPhoto { position:relative; display:block; overflow:hidden; width:365px; height:205px; }
+  #smrFlickr .flickrPhoto img { width:100%; }
+  #smrFlickr .flInfo { margin-top:12px; padding:12px 12px 1px; background:#f7f7f7; }
+  #smrFlickr .flHeading { display:block; }
+  #smrFlickr .flViews { padding-left:5px; border-left:1px solid #888; }
+
+
+  /* TABS */
+/*
+  a.msTabItem { display:inline !important; float:left; margin:12px 12px 0; padding:0; width:340px; }
+  a.msTabItem img { float:left; margin:0 9px 0 0; }
+  a.msTabItem span { cursor:pointer; display:block; margin:4px 0; width:307px; }
+*/
+  a.msTabItem { display:block; margin-top:12px; padding:0; }
+  a.msTabItem img { float:left; margin:0 9px 0 0; }
+  a.msTabItem span { cursor:pointer; display:block; padding:4px 0; width:307px; }
+
+  div.smrTabbedColumnLeft { float:left; width:350px; margin:0 12px 0; }
+  div.smrTabbedColumnRight { float:left; width:350px; margin:0 12px; }
+}
+ 
+/*** local CSS ***/
+
+#linkedIn{
+    margin: 12px 0 0 41px;
+}
+#linkedInIt{
+    margin: 12px 0 0 53px;
+}
+#linkedIn .linkedInIco,
+#linkedInIt .linkedInIco{
+    margin-top: -9px;
+    vertical-align: top;
+}
+
+/*** ***/
