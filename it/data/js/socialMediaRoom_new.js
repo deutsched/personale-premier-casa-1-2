@@ -60,7 +60,7 @@ zo.facebookBox = {
             $container
                 .find('#fb-privacy-protection').hide()
                 .append('<div id="fb-root"></div>')
-                //.append('<div id="fb-root"><iframe src="https://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/DeutscheBankEasy&amp;width=364&amp;height=480&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;show_border=true&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:364px; height:590px;" allowTransparency="true"></iframe></div>')
+                //.append('<div id="fb-root"><iframe src="" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:364px; height:590px;" allowTransparency="true"></iframe></div>')
             ;
            /* jQuery.getScript('https://connect.facebook.net/en_US/all.js', function() {
                 FB.init({appId: 'c84cea51fbbde9e98a3baafc9c94740f', 
@@ -70,7 +70,7 @@ zo.facebookBox = {
                 });
                 $container.append('<fb:fan profile_id="115816835104562" connections="6" stream=true width="364" height="480" css="https://www.facebook.com/DeutscheBankEasy/italia/it/data/css/socialMediaRoom_Facebook_new.css?2"></fb:fan>');
             });*/
-            $container.append('<iframe src="https://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/DeutscheBankEasy&amp;width=364&amp;height=480&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;show_border=true&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:364px; height:350px;" allowTransparency="true"></iframe>')
+            $container.append('<iframe src="" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:364px; height:350px;" allowTransparency="true"></iframe>')
 
             $stateSwitch
                 .find('.smrStateText').text('deactivate')
